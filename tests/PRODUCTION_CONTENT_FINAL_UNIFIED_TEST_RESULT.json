@@ -1,0 +1,168 @@
+{
+  "name": "UE5AI production content #26-#47 unified test",
+  "timestamp_utc": "2026-10-05T12:09:13.6891040Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "preflight production plugin loaded",
+      "passed": true,
+      "detail": "5.7.4-51494982+++UE5+Release-5.7"
+    },
+    {
+      "name": "MCP bridge exposes production tools",
+      "passed": true,
+      "detail": "production tool names must be discoverable over standard MCP"
+    },
+    {
+      "name": "production tool contracts listed",
+      "passed": true,
+      "detail": "count=27"
+    },
+    {
+      "name": "#26 performance snapshot",
+      "passed": true,
+      "detail": "frame=16.666699200868607ms draw=684"
+    },
+    {
+      "name": "#27 controlled CVar set",
+      "passed": true,
+      "detail": "61"
+    },
+    {
+      "name": "#27 controlled CVar rollback",
+      "passed": true,
+      "detail": "t.MaxFPS"
+    },
+    {
+      "name": "#28 World Partition inspection",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1"
+    },
+    {
+      "name": "#28 native Level Instance binding",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.LevelInstance_UAID_00E04C680602520803_1925794711"
+    },
+    {
+      "name": "#29 Landscape generation",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_UAID_00E04C680602520803_1925870712"
+    },
+    {
+      "name": "#30 seeded instance scatter",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.Actor_UAID_00E04C680602520803_1926013713"
+    },
+    {
+      "name": "#31 Curve data asset",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/Curve_Production_Final.Curve_Production_Final"
+    },
+    {
+      "name": "#31 Data Table asset",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/Table_Production_Final.Table_Production_Final"
+    },
+    {
+      "name": "#31 User Defined Enum asset",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/E_Production_Final.E_Production_Final"
+    },
+    {
+      "name": "#31 User Defined Struct asset",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/S_Production_Final.S_Production_Final"
+    },
+    {
+      "name": "#32 UMG base layout",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/WBP_Production_Final.WBP_Production_Final"
+    },
+    {
+      "name": "#33 Enhanced Input mapping",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/IMC_Production_Final.IMC_Production_Final"
+    },
+    {
+      "name": "#34 safe Blueprint edit and compile",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/BP_Production_Final.BP_Production_Final"
+    },
+    {
+      "name": "#35 C++ scaffold preview",
+      "passed": true,
+      "detail": "../../../../../ue--myproject/AI插件测试项目/Saved/UE5AI/GeneratedSource/UE5AIProductionPreview.h"
+    },
+    {
+      "name": "#36 asset dependency graph",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/BP_Production_Final.BP_Production_Final"
+    },
+    {
+      "name": "#37 Gameplay Framework scaffold",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/BP_ProductionCharacter.BP_ProductionCharacter"
+    },
+    {
+      "name": "#38 GAS capability gate",
+      "passed": true,
+      "detail": "GameplayAbilities plugin is not enabled for this project; no GAS asset was created."
+    },
+    {
+      "name": "#39 PBR Material Graph",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/M_Production_Final.M_Production_Final"
+    },
+    {
+      "name": "#40 procedural mesh with collision",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.Actor_UAID_00E04C680602520803_1926395714"
+    },
+    {
+      "name": "#41 external DCC manifest",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/DccJobs/D34B4D34485315083153F294F5E72033.json"
+    },
+    {
+      "name": "#42 animation test prerequisite",
+      "passed": true,
+      "detail": "skeletons=9"
+    },
+    {
+      "name": "#42 montage scaffold",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/AM_Production_Final.AM_Production_Final"
+    },
+    {
+      "name": "#43 skeleton/animation validation",
+      "passed": true,
+      "detail": "/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin"
+    },
+    {
+      "name": "#44 Sequencer asset create",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/LS_Production_Final.LS_Production_Final"
+    },
+    {
+      "name": "#44 Sequencer keyed track edit",
+      "passed": true,
+      "detail": "Time Dilation float master track"
+    },
+    {
+      "name": "#45 Niagara capability gate",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/NS_Production_Final.NS_Production_Final"
+    },
+    {
+      "name": "#46 Sound Cue creation",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/SC_Production_Final.SC_Production_Final"
+    },
+    {
+      "name": "#47 UMG interaction baseline",
+      "passed": true,
+      "detail": "Widget names are stable for navigation and automation; project-specific labels/localization remain editable in UMG."
+    }
+  ],
+  "failures": []
+}

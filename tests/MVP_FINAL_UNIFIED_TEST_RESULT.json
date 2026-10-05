@@ -1,0 +1,193 @@
+{
+  "name": "UE5AI MVP #1-#25 final unified test",
+  "timestamp_utc": "2026-10-05T10:29:48.1484121Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "#1 local execution endpoint",
+      "passed": true,
+      "detail": "5.7.4-51494982+++UE5+Release-5.7"
+    },
+    {
+      "name": "#1 standard MCP stdio bridge",
+      "passed": true,
+      "detail": "initialize, tools/list and ue5_health must all succeed"
+    },
+    {
+      "name": "#1 tool contract list",
+      "passed": true,
+      "detail": "tool contracts returned"
+    },
+    {
+      "name": "#2 project identity",
+      "passed": true,
+      "detail": "../../../../../ue--myproject/AI插件测试项目/"
+    },
+    {
+      "name": "#3 editor state",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1"
+    },
+    {
+      "name": "#6 asset registry",
+      "passed": true,
+      "detail": "asset_count=7835"
+    },
+    {
+      "name": "#7 world hierarchy",
+      "passed": true,
+      "detail": "actor_count=144"
+    },
+    {
+      "name": "#8 reflection properties",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings"
+    },
+    {
+      "name": "#9 CVar search",
+      "passed": true,
+      "detail": "count=200"
+    },
+    {
+      "name": "#10 diagnostics",
+      "passed": true,
+      "detail": "AI插件测试项目"
+    },
+    {
+      "name": "#5 log capture",
+      "passed": true,
+      "detail": "lines=300"
+    },
+    {
+      "name": "#4 screenshot request",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/viewport_639267929888210000.png"
+    },
+    {
+      "name": "#12 actor create",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_00E04C6806024D0803_1329364831"
+    },
+    {
+      "name": "#13 actor transform/tag",
+      "passed": true,
+      "detail": "Rotation: Pitch 10.000000 Yaw 20.000000 Roll 30.000000\r\nTranslation: 120.000000 240.000000 360.000000\r\nScale3D: 1.000000 2.000000 3.000000\r\n"
+    },
+    {
+      "name": "#15 folder/tag/layer binding",
+      "passed": true,
+      "detail": "UE5AI/FinalTest"
+    },
+    {
+      "name": "#11 undo/redo checkpoint",
+      "passed": true,
+      "detail": "transaction endpoints succeeded"
+    },
+    {
+      "name": "#14 point light",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.PointLight_UAID_00E04C6806024D0803_1329548832"
+    },
+    {
+      "name": "#14 camera/post-process",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1:PersistentLevel.CameraActor_UAID_00E04C6806024D0803_1329595833"
+    },
+    {
+      "name": "#16 static-mesh graybox grid",
+      "passed": true,
+      "detail": "count=6"
+    },
+    {
+      "name": "#17 material instance",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/MI_UE5AI_Final.MI_UE5AI_Final"
+    },
+    {
+      "name": "#18 asset import",
+      "passed": true,
+      "detail": "D:\\xuexishiyong\\UE5AI\\tests\\fixtures\\UE5AI_Triangle.obj"
+    },
+    {
+      "name": "#18 asset reimport",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/UE5AI_Triangle.UE5AI_Triangle"
+    },
+    {
+      "name": "#21 asset-class summary",
+      "passed": true,
+      "detail": "blueprints=111"
+    },
+    {
+      "name": "#19 Blueprint graph export",
+      "passed": true,
+      "detail": "/Engine/EngineDamageTypes/DmgTypeBP_Environmental.DmgTypeBP_Environmental"
+    },
+    {
+      "name": "#20 Material Graph export",
+      "passed": true,
+      "detail": "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    },
+    {
+      "name": "#21 Sequencer asset create",
+      "passed": true,
+      "detail": "/Game/UE5AI_AutoTmp/LS_UE5AI_Final.LS_UE5AI_Final"
+    },
+    {
+      "name": "#21 Sequencer/animation/Niagara summary protocol",
+      "passed": true,
+      "detail": "/Script/LevelSequence.LevelSequence"
+    },
+    {
+      "name": "#22 asset integrity validation",
+      "passed": true,
+      "detail": "invalid=0; missing=18; issues=/ControlRigModules/Modules/Shoulder -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /ControlRigModules/Modules/Meshes/SK_Biped_Template -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /ControlRigModules/Modules/Meshes/SK_Biped_Template -> /Game/Characters/Mannequins/Meshes/SKM_Quinn | /HairStrands/Dataflow/Templates/DF_GroomGuidesSplineSkinningTemplate -> /Game/MetaHumans/Aera_MHC/Hair_L_DutchBraid_Tri | /HairStrands/Dataflow/Templates/DF_GroomStrandsSplineSkinningTemplate -> /Game/MetaHumans/Aera_MHC/Hair_L_DutchBraid_Tri | /Game/LevelPrototyping/Interactable/Target/BP_WobbleTarget -> /Game/DemoTemplate/_Core/MI_Intro_Colorway | /Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD -> /Game/Characters/Heroes/Mannequin/Meshes/SKM_Quinn | /Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU -> /Game/Characters/Heroes/Mannequin/Meshes/SKM_Quinn | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_01 -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_01 -> /Game/Characters/Mannequins/Animations/EditableAnimations/LS_Attack_01 | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_02 -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_02 -> /Game/Characters/Mannequins/Animations/EditableAnimations/LS_Attack_02 | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_03 -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_03 -> /Game/Characters/Mannequins/Animations/EditableAnimations/LS_Attack_03 | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_ChargedAttack -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_ChargedAttack -> /Game/Characters/Mannequins/Animations/EditableAnimations/LS_ChargedAttack | /Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump -> /Game/Characters/Mannequins/Meshes/SKM_Manny | /Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump -> /Game/Characters/Mannequins/Animations/EditableAnimations/LS_Attack_01"
+    },
+    {
+      "name": "#23 candidate screenshot",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/viewport_639267929902870000.png"
+    },
+    {
+      "name": "#23 visual verification evidence",
+      "passed": true,
+      "detail": "screenshot hashes returned"
+    },
+    {
+      "name": "#24 PIE start request",
+      "passed": true,
+      "detail": "PIE requested"
+    },
+    {
+      "name": "#24 PIE observable state",
+      "passed": true,
+      "detail": "snapshot must report PIE while running"
+    },
+    {
+      "name": "#24 PIE stop request",
+      "passed": true,
+      "detail": "PIE stop requested"
+    },
+    {
+      "name": "#25 automation discovery",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "name": "#25 automation execution request",
+      "passed": true,
+      "detail": "completed; poll automation/report for captured completion log"
+    },
+    {
+      "name": "#25 automation report",
+      "passed": true,
+      "detail": "captured successful automation signal required"
+    },
+    {
+      "name": "#11 save dirty packages after cleanup",
+      "passed": true,
+      "detail": "project save accepted"
+    }
+  ],
+  "failures": []
+}

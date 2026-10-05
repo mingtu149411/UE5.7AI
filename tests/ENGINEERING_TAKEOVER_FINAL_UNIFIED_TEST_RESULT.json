@@ -1,0 +1,98 @@
+{
+  "name": "UE5AI engineering takeover #48-#60 unified test",
+  "timestamp_utc": "2026-10-05T12:28:19.0146602Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "preflight engineering plugin loaded",
+      "passed": true,
+      "detail": "5.7.4-51494982+++UE5+Release-5.7"
+    },
+    {
+      "name": "MCP bridge exposes engineering tools",
+      "passed": true,
+      "detail": "engineering tool names must be discoverable over standard MCP"
+    },
+    {
+      "name": "engineering tool contracts listed",
+      "passed": true,
+      "detail": "count=40"
+    },
+    {
+      "name": "#48 replication topology",
+      "passed": true,
+      "detail": "/Temp/Untitled_1.Untitled_1"
+    },
+    {
+      "name": "#48 multiplayer session plan",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/Engineering/Network/SessionPlan_53F80A1D491A5884397147BCF0A3CCE6.json"
+    },
+    {
+      "name": "#49 platform/plugin profile",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Config/"
+    },
+    {
+      "name": "#50 cook/package/deploy plan",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/Engineering/Pipeline/BuildCookRun_3E0FCDA14707C046CF973590ECA22ED3.json"
+    },
+    {
+      "name": "#51 quality and memory budget audit",
+      "passed": true,
+      "detail": "assets=7835, draw=689"
+    },
+    {
+      "name": "#52 localization/accessibility/compliance baseline",
+      "passed": true,
+      "detail": "audit baseline generated; no localization or compliance data was modified."
+    },
+    {
+      "name": "#53 source-control collaboration status",
+      "passed": true,
+      "detail": "provider discovery only"
+    },
+    {
+      "name": "#54 CI/CD plan",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/Engineering/CI/Pipeline_E24F2CAF46301B030FDB0DA2377244CC.json"
+    },
+    {
+      "name": "#55 crash diagnostics workflow",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/Crashes"
+    },
+    {
+      "name": "#56 plugin scaffold preview",
+      "passed": true,
+      "detail": "preview only; set write_project=true to create a new plugin directory"
+    },
+    {
+      "name": "#57 editor-domain adapters",
+      "passed": true,
+      "detail": "adapters=8"
+    },
+    {
+      "name": "#58 recoverable autonomous agent plan",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/Engineering/Agent/Task_265F48B34C0D21566CA51E974547A6C2.json"
+    },
+    {
+      "name": "#58 approval-gated task transition",
+      "passed": true,
+      "detail": "ready"
+    },
+    {
+      "name": "#59 from-zero scene orchestration",
+      "passed": true,
+      "detail": "D:/xuexishiyong/ue--myproject/AI插件测试项目/Saved/UE5AI/Engineering/ScenePlans/Scene_8AC9DADF4AFBD92252FC3C9B5C2D779D.json"
+    },
+    {
+      "name": "#60 capability coverage matrix",
+      "passed": true,
+      "detail": "5.7.4-51494982+++UE5+Release-5.7"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,17 @@
+# 项目作者水印：南京大学24届沈逸文
+# Unreal 可再生构建缓存与本地调试符号不进入版本库；插件源码、配置、文档、测试记录和最终 DLL 保留。
+
+/_build/
+/build/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/.vs/
+*.pdb
+*.obj
+*.pch
+*.ipch
+*.log
+*.sln
+*.VC.db
+*.VC.opendb

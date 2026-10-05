@@ -1,0 +1,20 @@
+{
+  "FileVersion": 3,
+  "Version": 4,
+  "VersionName": "0.4.0-showcase-levels",
+  "FriendlyName": "UE5 AI MCP",
+  "Description": "Local, auditable AI automation bridge for Unreal Editor. Project author watermark: 南京大学24届沈逸文.",
+  "Category": "AI",
+  "CreatedBy": "南京大学24届沈逸文",
+  "EngineVersion": "5.7.0",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "EnabledByDefault": false,
+  "Modules": [ { "Name": "UE5AIMcp", "Type": "Editor", "LoadingPhase": "Default" } ],
+  "Plugins": [
+    { "Name": "EnhancedInput", "Enabled": true },
+    { "Name": "ProceduralMeshComponent", "Enabled": true },
+    { "Name": "Niagara", "Enabled": true }
+  ]
+}
